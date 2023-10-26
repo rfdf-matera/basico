@@ -3,9 +3,9 @@ description: 'Greet someone and record the time'
 
 on:
     push:
-        - branches: [ "master" ]
+        branches: [ "main" ]
     pull_request:
-        - branches: [ "master" ]
+        branches: [ "main" ]
 
 inputs:
   who-to-greet: # id of input
